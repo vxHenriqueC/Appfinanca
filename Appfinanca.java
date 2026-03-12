@@ -1,7 +1,12 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
+import java.time.LocalDate;
 
-public class Appfinanca {
+class Transacao {
 
-}
+    private String tipo;
+    private double valor;
+    private String categoria;
+    private LocalDate data;
+
 
